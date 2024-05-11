@@ -15,7 +15,7 @@
   "categories": [
     "Other"
   ],
-  "icon": "./img/trans.png",
+  "icon": "img/trans.png",
   "activationEvents": [
     "*"
   ],
