@@ -5,7 +5,7 @@ const jschardet = require("jschardet");
 
 module.exports = function (context) {
   let disposable = vscode.commands.registerCommand(
-    "extension.excel2html",
+    "extension.excel2table",
     async () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {

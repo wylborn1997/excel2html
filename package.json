@@ -1,6 +1,6 @@
 {
-  "name": "excel2tabel",
-  "displayName": "excel-to-tabel",
+  "name": "excel2table",
+  "displayName": "excel-to-table",
   "description": "excel转化为table",
   "keywords": [
     "excel",
@@ -8,7 +8,7 @@
     "table"
   ],
   "version": "1.0.3",
-  "publisher": "sxei",
+  "publisher": "wyl",
   "engines": {
     "vscode": "^1.27.0"
   },
@@ -24,46 +24,19 @@
     "configuration": {
       "type": "object",
       "title": "Code插件demo",
-      "properties": {
-        "vscodePluginDemo.yourName": {
-          "type": "string",
-          "default": "guest",
-          "description": "你的名字"
-        },
-        "vscodePluginDemo.showTip": {
-          "type": "boolean",
-          "default": true,
-          "description": "启动时显示自定义欢迎页"
-        }
-      }
+      "properties": {}
     },
     "commands": [
       {
-        "command": "extension.sayHello",
-        "title": "问候语"
-      },
-      {
-        "command": "extension.excel2html",
-        "title": "excel转html"
+        "command": "extension.excel2table",
+        "title": "excel转table"
       }
     ],
     "keybindings": [
       {
-        "command": "extension.sayHello",
-        "key": "ctrl+f10",
-        "mac": "option+f10",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "extension.excel2html",
+        "command": "extension.excel2table",
         "key": "ctrl+f1",
         "mac": "command+f1",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "extension.demo.openWebview",
-        "key": "ctrl+f9",
-        "mac": "cmd+f9",
         "when": "editorTextFocus"
       }
     ],
@@ -71,7 +44,7 @@
       "editor/context": [
         {
           "when": "editorFocus",
-          "command": "extension.excel2html",
+          "command": "extension.excel2table",
           "group": "navigation@4"
         }
       ],

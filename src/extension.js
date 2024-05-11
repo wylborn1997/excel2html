@@ -7,7 +7,7 @@ const vscode = require("vscode");
 exports.activate = function (context) {
   console.log("恭喜，您的扩展“vscode-plugin-demo”已被激活！");
   console.log(vscode);
-  require("./excel2html")(context); //excel2html
+  require("./excel2table")(context); //excel2table
 
   // 自动提示演示，在dependencies后面输入.会自动带出依赖
   // this.dependencies.
