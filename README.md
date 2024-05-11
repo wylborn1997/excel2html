@@ -8,9 +8,9 @@
 
 ​ 工具-web 选项-字体 多语言/unicode/其他文种
 
-<img src="/Users/xiaoyaling/Library/Application Support/typora-user-images/image-20240510161527721.png" alt="image-20240510161527721" style="zoom:50%;" />
+<img src="./img/image-20240510161527721.png" alt="image-20240510161527721" style="zoom:50%;" />
 
-<img src="/Users/xiaoyaling/Library/Application Support/typora-user-images/image-20240510161606428.png" alt="image-20240510161606428" style="zoom:50%;" />
+<img src="./img/image-20240510161606428.png" alt="image-20240510161606428" style="zoom:50%;" />
 
 ## 2.执行步骤
 
