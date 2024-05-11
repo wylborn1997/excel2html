@@ -7,8 +7,8 @@
     "html",
     "table"
   ],
-  "version": "1.0.3",
-  "publisher": "wyl",
+  "version": "1.0.0",
+  "publisher": "wylborn1997",
   "engines": {
     "vscode": "^1.27.0"
   },
